@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    ls ~/.emotes
+else
+    xclip -selection clipboard <~/.emotes/$1
+    cat <~/.emotes/$1
+    echo "copied to clipboard"
+fi
