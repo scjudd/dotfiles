@@ -71,4 +71,4 @@
 
 # Set up work-specific git configuration
 [includeIf "gitdir:~/Sources/BitGo/"]
-	path = ~/Sources/BitGo/.gitconfig
+	path = ~/.gitconfig-bitgo
