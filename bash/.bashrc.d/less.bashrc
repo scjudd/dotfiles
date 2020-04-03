@@ -4,3 +4,5 @@
 if [ -x /usr/bin/lesspipe ]; then
     eval "$(/usr/bin/lesspipe)"
 fi
+
+export LESS="FRXi"
